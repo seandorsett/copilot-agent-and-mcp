@@ -23,7 +23,6 @@ backend/data/test-*.json
 # Misc
 *.local
 *.cache
-package-lock.json
 yarn.lock
 
 # OS

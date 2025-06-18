@@ -39,7 +39,7 @@ Book Favorites is a full-stack web application that allows users to:
 1. **Clone the repository:**
    ```bash
    git clone <repo-url>
-   cd demo-exercise
+   cd <repo-name>
    ```
 
 2. **Install dependencies:**
@@ -56,18 +56,20 @@ Book Favorites is a full-stack web application that allows users to:
 
 3. **Run the backend server:**
    ```bash
-   cd backend
-   npm start
+   cd ..
+   npm run start:backend
    ```
    The backend runs on [http://localhost:4000](http://localhost:4000)
 
 4. **Run the frontend app:**
+
+   Open a second terminal.
+
    ```bash
-   cd frontend
-   npm start
+   npm run start:frontend
    ```
    The frontend runs on [http://localhost:5173](http://localhost:5173)
 
-5. **Usage:**
+6. **Usage:**
    - Register a new account or log in with an existing one.
    - Browse books, add favorites, and enjoy the app!
