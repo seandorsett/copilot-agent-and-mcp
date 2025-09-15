@@ -43,20 +43,15 @@ Book Favorites is a full-stack web application that allows users to:
    ```
 
 2. **Install dependencies:**
-   - Backend:
-     ```bash
-     cd backend
-     npm install
-     ```
-   - Frontend:
-     ```bash
-     cd ../frontend
-     npm install
-     ```
+  ```bash
+    npm install
+    cd frontend
+    npm install
+    cd ..
+  ```
 
 3. **Run the backend server:**
    ```bash
-   cd ..
    npm run start:backend
    ```
    The backend runs on [http://localhost:4000](http://localhost:4000)
