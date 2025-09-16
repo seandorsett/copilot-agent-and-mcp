@@ -1,4 +1,4 @@
-# Demo 4: Using GitHub Copilot Chat in Agent Mode to add a (basic) new feature
+# Demo 3: Using GitHub Copilot Chat in Agent Mode to add a (basic) new feature
 
 In this demo, we'll use GitHub Copilot Chat in Agent Mode to add a new feature that allows users to add a comment on one of their favorite book. This will demonstrate how GitHub Copilot Chat in Agent Mode understands context, suggests solutions, and helps test the changes.
 

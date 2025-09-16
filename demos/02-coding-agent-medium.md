@@ -18,7 +18,7 @@ We'll use this feature request to demonstrate Copilot Agent's capabilities:
 1. Go to dotcom Chat and ask Copilot:
 
 ```prompt
-Csreate an issue for a feature request to allow different types of users: member and administrators. The user type will have to be displayed close to the user name in the header of the application.
+Create an issue for a feature request to allow different types of users: member and administrators. The user type will have to be displayed close to the user name in the header of the application.
 ```
 
 2. Assign the issue to Copilot.
