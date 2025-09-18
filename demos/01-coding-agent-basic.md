@@ -12,8 +12,11 @@ In this demo, we'll use GitHub Copilot Agent to add a new feature that allows us
 ## Environment configuration
 
 - Create a new repository from [ps-copilot-sandbox/copilot-agent-and-mcp](https://github.com/ps-copilot-sandbox/copilot-agent-and-mcp) which is a template repository
-- Open the repository
-- All the following instructions have to be done on this new repository
+- Clone the repository on your laptop
+- Use the instructions in the [`README.md` file](/README.md) to setup your development environment and to start the application
+- Quickly explain and demo the application to the audience
+- Open the repository on GitHub.com
+  - All the following instructions have to be done on this new repository and on GitHub.com
 
 ## Setup Steps
 
