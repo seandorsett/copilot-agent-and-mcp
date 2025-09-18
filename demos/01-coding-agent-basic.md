@@ -1,6 +1,6 @@
 # Demo 1: Using GitHub Copilot Agent to add a (basic) new feature
 
-> [!INFO]
+> [!NOTE] 
 > This is a demo so it means that the trainer has to run the demo itself
 
 In this demo, we'll use GitHub Copilot Agent to add a new feature that allows users to remove books from their favorites list. This will demonstrate how Copilot Agent understands context, suggests solutions, and helps test the changes.
