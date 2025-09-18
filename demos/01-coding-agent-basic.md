@@ -1,15 +1,26 @@
 # Demo 1: Using GitHub Copilot Agent to add a (basic) new feature
 
+> [!INFO]
+> This is a demo so it means that the trainer has to run the demo itself
+
 In this demo, we'll use GitHub Copilot Agent to add a new feature that allows users to remove books from their favorites list. This will demonstrate how Copilot Agent understands context, suggests solutions, and helps test the changes.
 
 ## Prerequisites
 
 - A GitHub account with Copilot enabled and access to Copilot Coding Agent.
 
-## Setup Steps (already done)
+## Environment configuration
 
-- `copilot-setup-steps.yml`
-- `.github/copilot-instructions.md`
+- Create a new repository from [ps-copilot-sandbox/copilot-agent-and-mcp](https://github.com/ps-copilot-sandbox/copilot-agent-and-mcp) which is a template repository
+- Open the repository
+- All the following instructions have to be done on this new repository
+
+## Setup Steps
+
+These items are already configured. You have to go through them and explain the content:
+
+- [`copilot-setup-steps.yml`](/.github/workflows/copilot-setup-steps.yml) 
+- [`.github/copilot-instructions.md`](/.github/copilot-instructions.md)
 
 ## Feature Request: Remove book from favorites
 
