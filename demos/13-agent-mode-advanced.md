@@ -9,7 +9,7 @@ In this demo, we'll use GitHub Copilot Chat in Agent Mode with MCP to add more i
 
 - A GitHub account with Copilot enabled and access to the Agent Mode.
 - An IDE with GitHub Copilot Chat enabled and configured to use Agent Mode.
-- An GitHub account and an IDE with access to the MCP server.
+- A GitHub account and an IDE with access to MCP server.
 
 ## Environment configuration
 
