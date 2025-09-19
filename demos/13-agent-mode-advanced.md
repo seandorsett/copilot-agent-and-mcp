@@ -3,7 +3,11 @@
 > [!NOTE]
 > This is a demo so it means that the trainer has to run the demo himself
 
-In this demo, we'll use GitHub Copilot Chat in Agent Mode with MCP to add more information about a book (date, summary, and author). We will be using an MCP server to collect information from multiple sources to update the book details in the database. This will demonstrate how GitHub Copilot Chat in Agent Mode understands context, suggests solutions, and helps test the changes and interact with the MCP server.
+In this demo, we'll use GitHub Copilot Chat in Agent Mode with MCP to add more information about a book (date, summary, and author).
+
+We will be using an MCP server to collect information from multiple sources to update the book details in the database.
+
+This will demonstrate how GitHub Copilot Chat in Agent Mode understands context, suggests solutions, and helps test the changes and interact with the MCP server.
 
 ## Prerequisites
 
