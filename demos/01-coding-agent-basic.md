@@ -29,20 +29,21 @@ These items are already configured. You have to go through them and explain the 
 
 We'll use this feature request to demonstrate Copilot Agent's capabilities:
 
-1. Go to dotcom Chat and ask Copilot
+1. Go to your newly created repository on GitHUb.com
+2. Open Copilot Chat and ask:
 
 ```prompt
 Create an issue for a feature request to allow users to remove books from their favorites list.
 ```
 
-2. Assign the issue to Copilot.
-3. Show the :eyes: emoji reaction to the issue.
-4. Show the PR and the content of the body.
-5. Open the Actions tab in the repository and find the workflow that was created.
-6. Show the Copilot Coding Agent timeline.
-7. Explain the setup workflow.
-8. Explain the custom instructions.
-9. It can take some time (~7 minutes) for Copilot Agent to process the request and create the PR, so be patient. It could be a good time to ask participants if they have any questions.
-10. Show the PR and the content of the body.
-11. Show the Copilot Coding Agent timeline.
-12. Show the result of the PR.
+3. Assign the issue to Copilot.
+4. Show the :eyes: emoji reaction to the issue.
+5. Show the PR and the content of the body.
+6. Open the Actions tab in the repository and find the workflow that was created.
+7. Show the Copilot Coding Agent timeline.
+8. Explain the setup workflow.
+9. Explain the custom instructions.
+10. It can take some time (~7 minutes) for Copilot Agent to process the request and create the PR, so be patient. It could be a good time to ask participants if they have any questions.
+11. Show the PR and the content of the body.
+12. Show the Copilot Coding Agent timeline.
+13. Show the result of the PR.
