@@ -1,5 +1,18 @@
 # GitHub Copilot Coding Agent Exercises
 
+> [!NOTE]
+> This is an hands-on workshop so it has to be done by the participants. The instructions below are to be used by the workshop participants themselves.
+
+## Prerequisites
+
+- A GitHub account with Copilot enabled and access to Copilot Coding Agent.
+
+## Environment configuration
+
+- Create a new repository from [ps-copilot-sandbox/copilot-agent-and-mcp](https://github.com/ps-copilot-sandbox/copilot-agent-and-mcp) which is a template repository
+- Open the repository on GitHub.com
+  - All the following instructions have to be done on this new repository and on GitHub.com
+
 ## Exercise 1: Clear All Favorites Button
 
 ### Task
@@ -8,7 +21,7 @@ Add a "Clear All Favorites" button that allows users to remove all books from th
 
 ### Steps
 
-1. Go to your GitHub repository
+1. Go to your newly created GitHub repository on GitHub.com
 2. Create a new issue with the following content:
    ```
    Title: Add Clear All Favorites button
@@ -46,7 +59,7 @@ Implement sorting options for the book list to allow users to sort by title or a
 
 ### Steps
 
-1. Create a new issue with the following content:
+1. In the same repository on GitHub.Com, create a new issue with the following content:
    ```
    Title: Add book list sorting options
 
@@ -82,7 +95,7 @@ Implement a book review system by breaking down the feature into multiple issues
 
 ### Steps
 
-1. Create the Frontend Issue:
+1. In the same repository on GitHub.Com, create a Frontend Issue:
    ```
    Title: Frontend Implementation - Book Reviews UI Components
 
@@ -106,7 +119,7 @@ Implement a book review system by breaking down the feature into multiple issues
    - Consider responsive design
    ```
 
-2. Create the Backend Issue:
+2. Then, create a Backend Issue:
    ```
    Title: Backend Implementation - Book Reviews API
 
@@ -129,7 +142,7 @@ Implement a book review system by breaking down the feature into multiple issues
    - Add rate limiting for review submission
    ```
 
-3. Create the Main Feature Issue:
+3. Finally, create a Main Feature Issue:
    ```
    Title: Implement Book Review System
 
@@ -142,15 +155,14 @@ Implement a book review system by breaking down the feature into multiple issues
    - Backend implementation: #[Link to Backend Issue]
    ```
 
-4. GitHub MCP Server: it has already access to your current repository, so you have nothing to do here.
+4. GitHub MCP Server: it has already access to your current repository and is already usable by default, so you have nothing to do here.
 
 5. Assign to Copilot:
-  1. Assign the main issue to Copilot
+  1. Assign the Main Feature issue to Copilot
   2. Check the 👀 reaction
   3. Verify in the Coding Agent timeline that Copilot:
-   - Has access to linked issues
+   - Has access to linked issues and reads their content via the GitHub MCP Server
    - Understand the full feature scope
-   - Has MCP server access
 
 6. Monitor Implementation:
   - Watch Actions tab for PR creation

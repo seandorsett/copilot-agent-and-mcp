@@ -1,22 +1,24 @@
 # GitHub Copilot Agent and Chat Agent Mode with MCP - Hands-on Training
 
+> [!NOTE]
+> This is an hands-on workshop so it has to be done by the participants. The instructions below are to be used by the workshop participants themselves.
+
 Duration: 45-60 minutes
+
+This document quickly describes the content of the hands-on workshop. It is written for the engineers that is delivering the training.
 
 ## Prerequisites
 
 - GitHub account with Copilot access
-- VS Code with GitHub Copilot Chat extension
+- An IDE with GitHub Copilot Chat extension
 - Access to GitHub Copilot Coding Agent
 - Access to GitHub Copilot Chat in Agent Mode
 - Access to MCP servers
 - Node.js and npm installed
 
-## Setup (10 minutes)
+## Environment configuration
 
-1. Clone the Book Favorites demo repository
-2. Install dependencies for both frontend and backend
-3. Start the backend server and frontend application
-4. Verify the application is running correctly
+Everything is descripted step by step before each exercise.
 
 ## Part 1: GitHub Copilot Coding Agent (15-20 minutes)
 
@@ -46,10 +48,7 @@ Duration: 45-60 minutes
   - Frontend issue: UI components for adding/displaying reviews
   - Backend issue: API endpoints and database changes for reviews
   - Main feature issue: Link to both frontend and backend issues
-2. Configure the MCP server for Copilot Coding Agent:
-  - Set up the GitHub MCP server connection
-  - Configure access permissions
-  - Test the connection
+2. Use the MCP server for Copilot Coding Agent
 3. Assign the main issue to Copilot:
   - Ensure Copilot
   - Watch how Copilot:
