@@ -81,6 +81,6 @@ Everything is descripted step by step before each exercise.
    - Suggest implementation approach in the issue
 3. Implement the feature following the issue guidelines
 4. Explore how Chat Agent Mode:
-  - Creates well-structured issues
-  - Handles the implementation
-  - Adds necessary tests
+   - Creates well-structured issues
+   - Handles the implementation
+   - Adds necessary tests

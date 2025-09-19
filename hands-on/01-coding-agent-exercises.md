@@ -161,24 +161,24 @@ Implement a book review system by breaking down the feature into multiple issues
   1. Assign the Main Feature issue to Copilot
   2. Check the 👀 reaction
   3. Verify in the Coding Agent timeline that Copilot:
-   - Has access to linked issues and reads their content via the GitHub MCP Server
-   - Understand the full feature scope
+     - Has access to linked issues and reads their content via the GitHub MCP Server
+     - Understand the full feature scope
 
 6. Monitor Implementation:
-  - Watch Actions tab for PR creation
-  - Review changes as they come in
-  - Verify that Copilot:
-    * References linked issues
-    * Implements frontend and backend correctly
-    * Includes proper test coverage
-    * Maintains code style consistency
+   - Watch Actions tab for PR creation
+   - Review changes as they come in
+   - Verify that Copilot:
+     - References linked issues
+     - Implements frontend and backend correctly
+     - Includes proper test coverage
+     - Maintains code style consistency
 
 7. Review the Complete Feature:
-  - Check frontend components and styling
-  - Verify API endpoints and database changes
-  - Run all tests
-  - Test the feature end-to-end
-  - Review documentation updates
+   - Check frontend components and styling
+   - Verify API endpoints and database changes
+   - Run all tests
+   - Test the feature end-to-end
+   - Review documentation updates
 
 ### Learning Objectives
 
