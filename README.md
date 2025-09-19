@@ -1,5 +1,8 @@
 # Book Favorites App
 
+> [!NOTE]
+> This is a demo repository to be used during the GitHub Copilot Agents and MCP training session.
+
 ## Functional
 
 Book Favorites is a full-stack web application that allows users to:
@@ -33,7 +36,6 @@ Book Favorites is a full-stack web application that allows users to:
 
 ---
 
-
 ## Setup
 
 1. **Clone the repository:**
@@ -56,6 +58,8 @@ Book Favorites is a full-stack web application that allows users to:
    ```
    The backend runs on [http://localhost:4000](http://localhost:4000)
 
+   ![Backend execution logs example](./images/backend-execution-logs-example.png)
+
 4. **Run the frontend app:**
 
    Open a second terminal.
@@ -65,6 +69,18 @@ Book Favorites is a full-stack web application that allows users to:
    ```
    The frontend runs on [http://localhost:5173](http://localhost:5173)
 
+   ![Frontend execution logs example](./images/frontend-execution-logs-example.png)
+
+5. **Run the tests (optional):**
+
+   Open a third terminal.
+
+   ```bash
+   npm run test
+   ```
+
+   ![Tests execution logs example](./images/tests-execution-logs-example.png)
+
 6. **Usage:**
-   - Register a new account or log in with an existing one.
+   - Register a new account or log in with an existing one (`sandra`/`sandra`)).
    - Browse books, add favorites, and enjoy the app!
