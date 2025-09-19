@@ -1,7 +1,7 @@
 # Demo 1: Using GitHub Copilot Agent to add a (basic) new feature
 
-> [!NOTE] 
-> This is a demo so it means that the trainer has to run the demo itself
+> [!NOTE]
+> This is a demo so it means that the trainer has to run the demo himself
 
 In this demo, we'll use GitHub Copilot Agent to add a new feature that allows users to remove books from their favorites list. This will demonstrate how Copilot Agent understands context, suggests solutions, and helps test the changes.
 
@@ -22,14 +22,14 @@ In this demo, we'll use GitHub Copilot Agent to add a new feature that allows us
 
 These items are already configured. You have to go through them and explain the content:
 
-- [`copilot-setup-steps.yml`](/.github/workflows/copilot-setup-steps.yml) 
+- [`copilot-setup-steps.yml`](/.github/workflows/copilot-setup-steps.yml)
 - [`.github/copilot-instructions.md`](/.github/copilot-instructions.md)
 
 ## Feature Request: Remove book from favorites
 
 We'll use this feature request to demonstrate Copilot Agent's capabilities:
 
-1. Go to your newly created repository on GitHUb.com
+1. Go to your newly created repository on GitHub.com
 2. Open Copilot Chat and ask:
 
 ```prompt

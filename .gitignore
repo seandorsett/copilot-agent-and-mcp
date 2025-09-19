@@ -14,9 +14,6 @@ backend/data/test-*.json
 /dist/
 /build/
 
-# VSCode
-.vscode/
-
 # Mac
 .DS_Store
 
