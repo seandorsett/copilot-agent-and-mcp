@@ -45,22 +45,22 @@ Everything is descripted step by step before each exercise.
 ### Exercise 3: Complex Feature with Multiple Issues
 
 1. Create three issues for implementing book reviews functionality:
-  - Frontend issue: UI components for adding/displaying reviews
-  - Backend issue: API endpoints and database changes for reviews
-  - Main feature issue: Link to both frontend and backend issues
+   - Frontend issue: UI components for adding/displaying reviews
+   - Backend issue: API endpoints and database changes for reviews
+   - Main feature issue: Link to both frontend and backend issues
 2. Use the MCP server for Copilot Coding Agent
 3. Assign the main issue to Copilot:
-  - Ensure Copilot
-  - Watch how Copilot:
-    * Has access to read linked issues
-    * Reads and understands linked issues
-    * Coordinates frontend and backend changes
-    * Implements the complete feature
+   - Ensure Copilot
+   - Watch how Copilot:
+     * Has access to read linked issues
+     * Reads and understands linked issues
+     * Coordinates frontend and backend changes
+     * Implements the complete feature
 4. Review the generated PR and validate:
-  - Frontend changes match the requirements
-  - Backend API implementation
-  - Test coverage for both layers
-  - Integration between components
+   - Frontend changes match the requirements
+   - Backend API implementation
+   - Test coverage for both layers
+   - Integration between components
 
 ## Part 2: GitHub Copilot Chat Agent Mode with MCP (15-20 minutes)
 
@@ -68,10 +68,10 @@ Everything is descripted step by step before each exercise.
 
 1. Open VS Code with Agent Mode enabled
 2. Use Chat Agent Mode to implement a search feature in the books list that:
-  - Allows users to search books by title or author
-  - Adds a search input field in the UI
-  - Filters the book list in real-time
-  - Includes clear search functionality
+   - Allows users to search books by title or author
+   - Adds a search input field in the UI
+   - Filters the book list in real-time
+   - Includes clear search functionality
 
 ### Exercise 5: Adding Book Categories
 

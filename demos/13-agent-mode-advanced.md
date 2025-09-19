@@ -46,9 +46,9 @@ These items are partially configured. You have to go through them, modify them a
 We'll use this feature request to demonstrate Copilot Agent's capabilities with MCP:
 
 1. Go to your IDE and open the window containing the MCP server repository
-2. Start the `Book database` MCP server by following the instructions in the [`README.md`](https://github.com/ps-copilot-sandbox/copilot-mcp/blob/main/README.md) file
+2. Don't start it from here, it will be started by the webapp repository [configuration](/.vscode/mcp.json)
 3. Go to your other IDE window, the one with the webapp repository
-4. Check that the MCP server is running and accessible
+4. Start the MCP server 'book-database' with the command palette (`ctrl+shift+p` or `cmd+shift+p`) and the command `MCP: Start MCP server` then select `book-database`. You should see the MCP server starting in the terminal panel (`Starting server book-database` and `Book database MCP Server running on stdio`)
 5. Open GitHub Copilot Chat in Agent Mode, add the entire codebase (`#codebase`) in the context as we are working on a small application and then ask Copilot:
 
 ```prompt

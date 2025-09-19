@@ -19,18 +19,18 @@
 
 ## Exercise 4: Implementing Book Search
 
-### Task
+### Task (Exercise 4)
 
 Add a search functionality to the book list that allows users to search by title or author in real-time.
 
-### Steps
+### Steps (Exercise 4)
 
 1. Go to your IDE
 2. Open the newly created repository
 3. Open GitHub Copilot Chat in Agent Mode
 
 4. Create a prompt like this:
-   ```
+   ```prompt
    I want to add a search feature to the book list that filters books by title or author.
    The search should work in real-time as the user types.
 
@@ -59,17 +59,17 @@ Add a search functionality to the book list that allows users to search by title
 6. Explore the code changes that Copilot has made
 7. If needed ask Copilot to make changes or improvements to the code
 
-### Learning Objectives
+### Learning Objectives (Exercise 4)
 
 - Using Copilot Chat in Agent Mode effectively
 
 ## Exercise 5: Adding Book Categories
 
-### Task
+### Task (Exercise 5)
 
 Use the GitHub MCP server to create a detailed issue for adding book categories, then implement the feature using Copilot Chat in Agent Mode.
 
-### Steps
+### Steps (Exercise 5)
 
 1. Go to your IDE
 
@@ -80,7 +80,7 @@ Use the GitHub MCP server to create a detailed issue for adding book categories,
 3. Open GitHub Copilot Chat in Agent Mode
 
 4. Create a prompt like this:
-   ```
+   ```prompt
    I want to add a book categories feature
 
    I want to track my changes in a GitHub Issue: can you help me write a detailed description for implementing book categories in our application?
@@ -93,14 +93,14 @@ Use the GitHub MCP server to create a detailed issue for adding book categories,
    ```
 5. Review the issue created by Copilot on GitHub.com on your repository
 6. In GitHub Copilot Chat in Agent Mode, create a prompt like this:
-   ```
+   ```prompt
    Can you implement the book categories feature as described in the issue [issue_link]?
    ```
 7. Let's Copilot work on it
 8. Explore the code changes that Copilot has made
 9. If needed ask Copilot to make changes or improvements to the code
 
-### Learning Objectives
+### Learning Objectives (Exercise 5)
 
 - Using GitHub MCP server for issue creation
 - Using Copilot Chat in Agent Mode effectively
