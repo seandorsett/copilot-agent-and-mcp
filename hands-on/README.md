@@ -1,4 +1,4 @@
-# GitHub Copilot Agent and Chat Agent Mode with MCP - Hands-on Training
+# GitHub Copilot Agents and MCP (training) - Hands-on instructions
 
 > [!NOTE]
 > This is an hands-on workshop so it has to be done by the participants. The instructions below are to be used by the workshop participants themselves.

@@ -5,7 +5,7 @@
 
 ## Prerequisites
 
-- A GitHub account with Copilot enabled and access to Copilot Coding Agent.
+- A GitHub account with Copilot enabled, access to Copilot Coding Agent and access to MCP server.
 
 ## Environment configuration
 

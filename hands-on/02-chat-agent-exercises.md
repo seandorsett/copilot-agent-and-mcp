@@ -7,6 +7,7 @@
 
 - A GitHub account with Copilot enabled and access to the Agent Mode.
 - An IDE with GitHub Copilot Chat enabled and configured to use Agent Mode.
+- A GitHub account and an IDE with access to MCP server.
 
 ## Environment configuration
 
