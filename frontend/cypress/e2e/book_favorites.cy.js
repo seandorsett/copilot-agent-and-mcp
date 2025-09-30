@@ -47,4 +47,32 @@ describe('Book Favorites App', () => {
     cy.visit('http://localhost:5173/books');
     cy.url().should('eq', 'http://localhost:5173/');
   });
+
+  it('should allow sorting books by title and author', () => {
+    // Login first
+    cy.contains('Login').click();
+    cy.get('input[name="username"]').type(user.username);
+    cy.get('input[name="password"]').type(user.password);
+    cy.get('button#login').click();
+    cy.contains('Books').click();
+    
+    // Check that sort controls exist
+    cy.get('select#sortBy').should('exist');
+    cy.get('button').contains('A-Z').should('exist');
+    
+    // Verify default sort is by title ascending
+    cy.get('select#sortBy').should('have.value', 'title');
+    
+    // Change sort to by author
+    cy.get('select#sortBy').select('author');
+    cy.get('select#sortBy').should('have.value', 'author');
+    
+    // Toggle sort order
+    cy.get('button').contains('A-Z').click();
+    cy.get('button').contains('Z-A').should('exist');
+    
+    // Toggle back
+    cy.get('button').contains('Z-A').click();
+    cy.get('button').contains('A-Z').should('exist');
+  });
 });

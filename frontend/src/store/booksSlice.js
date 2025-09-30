@@ -7,8 +7,20 @@ export const fetchBooks = createAsyncThunk('books/fetchBooks', async () => {
 
 const booksSlice = createSlice({
   name: 'books',
-  initialState: { items: [], status: 'idle' },
-  reducers: {},
+  initialState: { 
+    items: [], 
+    status: 'idle',
+    sortBy: 'title',
+    sortOrder: 'asc'
+  },
+  reducers: {
+    setSortBy(state, action) {
+      state.sortBy = action.payload;
+    },
+    setSortOrder(state, action) {
+      state.sortOrder = action.payload;
+    },
+  },
   extraReducers: builder => {
     builder
       .addCase(fetchBooks.pending, state => { state.status = 'loading'; })
@@ -20,4 +32,5 @@ const booksSlice = createSlice({
   },
 });
 
+export const { setSortBy, setSortOrder } = booksSlice.actions;
 export default booksSlice.reducer;
