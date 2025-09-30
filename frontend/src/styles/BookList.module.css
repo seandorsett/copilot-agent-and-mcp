@@ -1,6 +1,89 @@
 .bookCardWithHeart {
   position: relative;
 }
+
+.sortControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 400px;
+}
+
+.sortGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sortLabel {
+  font-size: 0.95rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.sortSelect {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.sortSelect:hover {
+  border-color: #20b2aa;
+}
+
+.sortSelect:focus {
+  outline: none;
+  border-color: #20b2aa;
+  box-shadow: 0 0 0 2px rgba(32,178,170,0.1);
+}
+
+.sortOrderBtn {
+  padding: 0.5rem 1rem;
+  background: #20b2aa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 500;
+}
+
+.sortOrderBtn:hover {
+  background: #178d8d;
+}
+
+.sortOrderBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(32,178,170,0.3);
+}
+
+@media (max-width: 600px) {
+  .sortControls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .sortGroup {
+    justify-content: space-between;
+  }
+
+  .sortOrderBtn {
+    width: 100%;
+  }
+}
+
 .favoriteHeart {
   position: absolute;
   top: 10px;
